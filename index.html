@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img\Icono.ico">
+    <title>TechnoStore</title>
+    <link href="js\estilos.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="main-header__container">
+                <h1 class="main-header__title">TechnoStore</h1>
+                <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+                <nav class="main-nav" id="main-nav">
+                    <ul class="menu">
+                        <li class="menu__item"><a href="" class="menu__link">HOME</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">ACERCA DE</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">PRODUCTOS</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">TIENDA</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">CONTACTO</a></li>
+                    </ul>
+                </nav>                
+            </div>
+            <div class="main-header__container">
+                <span class="main-header__txt">Ayuda</span>
+                <p class="main-header__txt"><i class="fa-solid fa-phone"></i> Llamar 7654321</p>
+            </div>
+            <div class="main-header__container">
+                <a href="" class="main-header__link"><i class="far fa-user"></i></a>     
+                <a href="" class="main-header__btn">Carrito  <i class="fas fa-shopping-cart"></i></a>           
+                <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+            </div>
+        </div>
+    </header>
+    <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <img src="img\slide1.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                    <h2 class="slider__title">Computadores</h2>
+                    <p class="slider__txt">Descubre el mejor equipo para ti</p>
+                    <a href="" class="btn-shop">Comprar</a>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="img\slide2.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                    <h2 class="slider__title">Celulares</h2>
+                    <p class="slider__txt">Encuentra los mejores precios</p>
+                    <a href="" class="btn-shop">Comprar</a>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="img\slide3.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                    <h2 class="slider__title">Accesorios</h2>
+                    <p class="slider__txt">Los mejores complementos para tus dispositivos</p>
+                    <a href="" class="btn-shop">Comprar</a>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="img\slide5.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                    <h2 class="slider__title">Ofertas</h2>
+                    <p class="slider__txt">Encuentra los mejores precios</p>
+                    <a href="" class="btn-shop">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60</div>
+    </div>
+    <main class="main">
+        <div class= "container">
+            <h2 class="main-title">Productos</h2>
+            <section class="container-products">
+                <div class="product">
+                    <img src="img\celular1.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Xiaomi</h3>
+                        <spam class="product__price">$1.500.000</spam>
+                    </div>
+                    <i class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="img\celular2.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Galaxy</h3>
+                        <spam class="product__price">$2.000.000</spam>
+                    </div>
+                    <i class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="img\celular3.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Iphone</h3>
+                        <spam class="product__price">$3.000.000</spam>
+                    </div>
+                    <i class="product__icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="img\celular4.jpg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__title">Flip</h3>
+                        <spam class="product__price">$2.500.000</spam>
+                    </div>
+                    <i class="product__icon fas fa-cart-plus"></i>
+                </div>
+            </section>
+            <section class="container-tips">
+                <div class="tip">
+                    <i class="fa-solid fa-lock"></i>
+                    <h2 class="tip__title">Compra seguras</h2>
+                    <p class="tip__txt">Tus compras aquí son 100% seguras, ya que trabajamos bajo rigurosos estándares de nivel mundial.</p>
+                    <a href="" class="btn-shop">Comprar</a>
+                </div>
+                <div class="tip">
+                    <i class="fa-solid fa-shield-blank"></i>
+                    <h2 class="tip__title">Calidad garantizada</h2>
+                    <p class="tip__txt">Todos los productos son 100% originales de distribuidores fabricantes.</p>
+                    <a href="" class="btn-shop">Comprar</a>
+                </div>
+                <div class="tip">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h2 class="tip__title">Envíos rapidos</h2>
+                    <p class="tip__txt">Compra ahora y recibe tu producto en la puerta de tu casa lo más rápido posible.</p>
+                    <a href="" class="btn-shop">Comprar</a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="footer__section">
+            <h2 class="footer__title">Sobre nosotros</h2>
+            <p class="footer__txt">Somos una empresa dedicada a la venta de tecnología online que garantiza la originalidad de los productos y seguridad de las compras.</p>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">Locación</h2>
+            <p class="footer__txt">Calle 100 #100-100</p>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">Email</h2>
+            <p class="footer__txt">TechnoStore@TechnoStore.com</p>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">Regístrate para no perderte nuestras ofertas</h2>
+            <p class="footer__txt">Suscribiéndote a nuestro centro de noticias recibirás de primera mano todas las ofertas y nuevos productos.</p>
+            <input type="email" class="footer__input" placeholder="Ingresa tu E-mail">
+        </div>
+        <p class="copy"> © 2021 TechnoStore | Todos los derechos reservados</p>
+    </footer>
+    <script src="js\slider.js"></script>
+    <script src="js\menu.js"></script>
+</body>
+</html>
